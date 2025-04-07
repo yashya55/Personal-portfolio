@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #121212;
+    color: #f1f1f1;
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #1e1e1e;
+    padding: 20px;
+    height: 100vh;
+    position: fixed;
+    transition: all 0.3s ease;
+  }
+  
+  .sidebar .logo {
+    font-size: 24px;
+    color: #4caf50;
+    margin-bottom: 30px;
+  }
+  
+  .sidebar nav a {
+    display: block;
+    color: #ccc;
+    padding: 10px 0;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  
+  .sidebar nav a:hover {
+    color: #4caf50;
+  }
+  
+  .download-btn {
+    margin-top: 20px;
+    display: inline-block;
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    text-decoration: none;
+  }
+  
+  #toggleBtn {
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .main {
+    margin-left: 240px;
+    padding: 40px;
+    width: 100%;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .content-section {
+    margin-bottom: 50px;
+  }
+  
+  .profile-pic {
+    width: 140px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
+  
+  .cert-item {
+    margin-top: 20px;
+    background-color: #2c2c2c;
+    padding: 20px;
+    border-left: 4px solid #4caf50;
+    border-radius: 8px;
+  }
+  
+  .mail-btn {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 16px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: 0.3s;
+  }
+  
+  .mail-btn:hover {
+    background-color: #388e3c;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  ul li {
+    margin-bottom: 10px;
+  }
+  
